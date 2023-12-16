@@ -51,6 +51,7 @@ const App = () =>{
             type="password" 
             id="user-password" 
             name="email" 
+            required
             onChange={e =>{setPassword(e.target.value)}}>
           </input>
           {
@@ -68,6 +69,7 @@ const App = () =>{
             type="password" 
             id="user-password-confirm" 
             name="email" 
+            required
             onChange={e =>{setConfirmPassword(e.target.value)}}>
           </input>
           {
